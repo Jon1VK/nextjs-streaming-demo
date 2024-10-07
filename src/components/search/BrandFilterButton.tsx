@@ -2,6 +2,8 @@
 
 import { useURLSearchParamsState } from "@/hooks/useURLSearchParamsState";
 import { searchSchema, ShoeBrand } from "@/schemas/searchSchema";
+import { Suspense, use } from "react";
+import LoadingSpinner from "../common/LoadingSpinner";
 import { Button } from "../ui/button";
 import { useSearchContext } from "./SearchProvider";
 
@@ -20,7 +22,12 @@ export default function BrandFilterButton({ brand }: BrandFilterButtonProps) {
       className="flex gap-1"
     >
       {brand}
-      <BrandTotal brand={brand} />
+      <Suspense
+        key={JSON.stringify(searchParams)}
+        fallback={<LoadingSpinner />}
+      >
+        <BrandTotal brand={brand} />
+      </Suspense>
     </Button>
   );
 }
@@ -30,7 +37,8 @@ type BrandTotalProps = {
 };
 
 const BrandTotal = ({ brand }: BrandTotalProps) => {
-  const searchResult = useSearchContext();
+  const searchResultPromise = useSearchContext();
+  const searchResult = use(searchResultPromise);
   const total = searchResult.totals[brand];
   return <span>({total})</span>;
 };

@@ -2,14 +2,16 @@
 
 import { useURLSearchParamsState } from "@/hooks/useURLSearchParamsState";
 import { searchSchema } from "@/schemas/searchSchema";
-import { useMemo } from "react";
+import { use, useMemo } from "react";
 import PageMenu from "../common/PageMenu";
 import ShoeCard from "../common/ShoeCard";
 import { useSearchContext } from "./SearchProvider";
 
 export default function SearchResults() {
   const [searchParams, setSearchParams] = useURLSearchParamsState(searchSchema);
-  const searchResult = useSearchContext();
+  const searchResultPromise = useSearchContext();
+
+  const searchResult = use(searchResultPromise);
 
   const pageCount = useMemo(
     () => Math.ceil(searchResult.total / searchParams.limit),

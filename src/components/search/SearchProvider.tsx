@@ -3,18 +3,18 @@
 import { SearchResult } from "@/data/search";
 import { Context, createContext, ReactNode, useContext } from "react";
 
-const SearchContext = createContext<SearchResult | null>(
+const SearchContext = createContext<Promise<SearchResult> | null>(
   null
-) as Context<SearchResult>;
+) as Context<Promise<SearchResult>>;
 
 type SearchProviderProps = {
   children: ReactNode;
-  searchResult: SearchResult;
+  searchResultPromise: Promise<SearchResult>;
 };
 
 export default function SearchProvider(props: SearchProviderProps) {
   return (
-    <SearchContext.Provider value={props.searchResult}>
+    <SearchContext.Provider value={props.searchResultPromise}>
       {props.children}
     </SearchContext.Provider>
   );
