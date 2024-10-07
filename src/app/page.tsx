@@ -2,12 +2,19 @@ import BrandFilter from "@/components/search/BrandFilter";
 import SearchForm from "@/components/search/SearchForm";
 import SearchProvider from "@/components/search/SearchProvider";
 import SearchResults from "@/components/search/SearchResults";
+import { search } from "@/data/search";
 
 export const dynamic = "force-dynamic";
 
-export default function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: unknown;
+}) {
+  const searchResult = await search(searchParams);
+
   return (
-    <SearchProvider>
+    <SearchProvider searchResult={searchResult}>
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         Running Shoes Search
       </h1>

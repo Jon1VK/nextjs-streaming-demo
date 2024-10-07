@@ -1,5 +1,3 @@
-"use server";
-
 import { ShoeBrand, searchSchema } from "@/schemas/searchSchema";
 import shoes from "./shoes.json";
 

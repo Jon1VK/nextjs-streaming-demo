@@ -1,32 +1,20 @@
 "use client";
 
-import { search, SearchResult } from "@/data/search";
-import { useSearchParams } from "next/navigation";
-import {
-  createContext,
-  ReactNode,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import { SearchResult } from "@/data/search";
+import { Context, createContext, ReactNode, useContext } from "react";
 
-const SearchContext = createContext<SearchResult | null>(null);
+const SearchContext = createContext<SearchResult | null>(
+  null
+) as Context<SearchResult>;
 
 type SearchProviderProps = {
   children: ReactNode;
+  searchResult: SearchResult;
 };
 
 export default function SearchProvider(props: SearchProviderProps) {
-  const searchParams = useSearchParams();
-  const [searchResult, setSearchResult] = useState<SearchResult | null>(null);
-
-  useEffect(() => {
-    setSearchResult(null);
-    search(Object.fromEntries(searchParams)).then(setSearchResult);
-  }, [searchParams]);
-
   return (
-    <SearchContext.Provider value={searchResult}>
+    <SearchContext.Provider value={props.searchResult}>
       {props.children}
     </SearchContext.Provider>
   );

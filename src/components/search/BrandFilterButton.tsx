@@ -2,7 +2,6 @@
 
 import { useURLSearchParamsState } from "@/hooks/useURLSearchParamsState";
 import { searchSchema, ShoeBrand } from "@/schemas/searchSchema";
-import LoadingSpinner from "../common/LoadingSpinner";
 import { Button } from "../ui/button";
 import { useSearchContext } from "./SearchProvider";
 
@@ -32,7 +31,6 @@ type BrandTotalProps = {
 
 const BrandTotal = ({ brand }: BrandTotalProps) => {
   const searchResult = useSearchContext();
-  const total = searchResult?.totals[brand];
-
-  return total !== undefined ? <span>({total})</span> : <LoadingSpinner />;
+  const total = searchResult.totals[brand];
+  return <span>({total})</span>;
 };
