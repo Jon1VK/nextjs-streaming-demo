@@ -1,0 +1,396 @@
+{
+  "running_shoes": [
+    {
+      "id": "rs001",
+      "brand": "Nike",
+      "model": "Air Zoom Pegasus 39",
+      "category": "Neutral",
+      "gender": "Men",
+      "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+      "price": 120.0,
+      "colors": ["Black", "Blue", "White"],
+      "weight": "285g",
+      "heel_drop": "10mm",
+      "features": [
+        "Zoom Air units in forefoot",
+        "Flywire cables",
+        "Cushlon ST foam midsole"
+      ],
+      "description": "A versatile running shoe for everyday runners, offering a smooth and comfortable ride.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.7, "total_reviews": 215 }
+    },
+    {
+      "id": "rs002",
+      "brand": "Adidas",
+      "model": "Ultraboost 22",
+      "category": "Cushioned",
+      "gender": "Women",
+      "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8],
+      "price": 180.0,
+      "colors": ["Pink", "Gray", "White"],
+      "weight": "310g",
+      "heel_drop": "10mm",
+      "features": [
+        "Primeknit upper",
+        "Responsive Boost midsole",
+        "Continental rubber outsole"
+      ],
+      "description": "An ultra-comfortable shoe for long-distance running with superior cushioning.",
+      "stock_status": "Limited Stock",
+      "reviews": { "average_rating": 4.8, "total_reviews": 328 }
+    },
+    {
+      "id": "rs003",
+      "brand": "Asics",
+      "model": "Gel-Kayano 29",
+      "category": "Stability",
+      "gender": "Unisex",
+      "sizes": [6, 7, 8, 9, 10, 11, 12, 13],
+      "price": 160.0,
+      "colors": ["Orange", "Black", "White"],
+      "weight": "305g",
+      "heel_drop": "8mm",
+      "features": [
+        "Dynamic DuoMax support",
+        "FlyteFoam Propel technology",
+        "GEL cushioning"
+      ],
+      "description": "Designed for overpronators, offering enhanced stability and comfort.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.6, "total_reviews": 112 }
+    },
+    {
+      "id": "rs004",
+      "brand": "Hoka",
+      "model": "Fresh Foam 1080v12",
+      "category": "Cushioned",
+      "gender": "Men",
+      "sizes": [8, 8.5, 9, 9.5, 10, 11, 12],
+      "price": 150.0,
+      "colors": ["Navy", "Gray", "Yellow"],
+      "weight": "292g",
+      "heel_drop": "8mm",
+      "features": [
+        "Fresh Foam X midsole",
+        "Hypoknit upper",
+        "Blown rubber outsole"
+      ],
+      "description": "Built for comfort with soft landings and smooth transitions.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.9, "total_reviews": 410 }
+    },
+    {
+      "id": "rs005",
+      "brand": "Nike",
+      "model": "Ghost 15",
+      "category": "Neutral",
+      "gender": "Women",
+      "sizes": [6, 6.5, 7, 7.5, 8, 8.5],
+      "price": 140.0,
+      "colors": ["Purple", "Gray", "Black"],
+      "weight": "280g",
+      "heel_drop": "12mm",
+      "features": [
+        "DNA Loft cushioning",
+        "3D Fit Print upper",
+        "Segmented Crash Pad"
+      ],
+      "description": "A reliable neutral shoe with soft cushioning and a smooth ride.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.5, "total_reviews": 290 }
+    },
+    {
+      "id": "rs006",
+      "brand": "Adidas",
+      "model": "Endorphin Speed 3",
+      "category": "Performance",
+      "gender": "Unisex",
+      "sizes": [8, 8.5, 9, 9.5, 10, 11],
+      "price": 170.0,
+      "colors": ["Orange", "Blue", "White"],
+      "weight": "224g",
+      "heel_drop": "8mm",
+      "features": [
+        "PWRRUN PB cushioning",
+        "Speedroll technology",
+        "Nylon plate"
+      ],
+      "description": "A fast and responsive shoe for speed workouts and racing.",
+      "stock_status": "Limited Stock",
+      "reviews": { "average_rating": 4.9, "total_reviews": 500 }
+    },
+    {
+      "id": "rs007",
+      "brand": "Hoka",
+      "model": "Clifton 9",
+      "category": "Cushioned",
+      "gender": "Men",
+      "sizes": [9, 9.5, 10, 10.5, 11, 12],
+      "price": 150.0,
+      "colors": ["Green", "Gray", "Black"],
+      "weight": "247g",
+      "heel_drop": "5mm",
+      "features": [
+        "Meta-Rocker technology",
+        "Full EVA midsole",
+        "Lightweight mesh upper"
+      ],
+      "description": "Soft and light, ideal for long runs with plush cushioning.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.6, "total_reviews": 315 }
+    },
+    {
+      "id": "rs008",
+      "brand": "Hoka",
+      "model": "Wave Rider 26",
+      "category": "Neutral",
+      "gender": "Women",
+      "sizes": [6, 6.5, 7, 7.5, 8],
+      "price": 130.0,
+      "colors": ["Purple", "Blue", "Black"],
+      "weight": "290g",
+      "heel_drop": "12mm",
+      "features": ["Wave Plate technology", "Enerzy foam", "U4ic midsole"],
+      "description": "A smooth and responsive ride with added cushioning.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.7, "total_reviews": 245 }
+    },
+    {
+      "id": "rs009",
+      "brand": "Nike",
+      "model": "Velocity Nitro 2",
+      "category": "Cushioned",
+      "gender": "Men",
+      "sizes": [8, 8.5, 9, 9.5, 10],
+      "price": 120.0,
+      "colors": ["Black", "Red", "White"],
+      "weight": "273g",
+      "heel_drop": "10mm",
+      "features": [
+        "Nitro Foam midsole",
+        "PUMAGRIP outsole",
+        "Reflective accents"
+      ],
+      "description": "A highly cushioned shoe for daily training, combining comfort and grip.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.6, "total_reviews": 150 }
+    },
+    {
+      "id": "rs010",
+      "brand": "Asics",
+      "model": "Torin 6",
+      "category": "Cushioned",
+      "gender": "Unisex",
+      "sizes": [7, 7.5, 8, 8.5, 9],
+      "price": 140.0,
+      "colors": ["Gray", "Black", "Yellow"],
+      "weight": "257g",
+      "heel_drop": "0mm",
+      "features": [
+        "Balanced Cushioning",
+        "FootShape toe box",
+        "Quantic midsole"
+      ],
+      "description": "Zero-drop shoe offering natural alignment and responsive cushioning.",
+      "stock_status": "Limited Stock",
+      "reviews": { "average_rating": 4.5, "total_reviews": 180 }
+    },
+    {
+      "id": "rs011",
+      "brand": "Adidas",
+      "model": "Floatride Energy 5",
+      "category": "Neutral",
+      "gender": "Men",
+      "sizes": [8, 9, 9.5, 10, 11],
+      "price": 100.0,
+      "colors": ["Black", "Gray", "Blue"],
+      "weight": "250g",
+      "heel_drop": "9mm",
+      "features": [
+        "Floatride Energy foam",
+        "Durable rubber outsole",
+        "Engineered mesh upper"
+      ],
+      "description": "Affordable and lightweight shoe designed for daily runs.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.4, "total_reviews": 320 }
+    },
+    {
+      "id": "rs012",
+      "brand": "Hoka",
+      "model": "HOVR Machina 3",
+      "category": "Neutral",
+      "gender": "Women",
+      "sizes": [6, 6.5, 7, 7.5, 8],
+      "price": 140.0,
+      "colors": ["White", "Pink", "Gray"],
+      "weight": "281g",
+      "heel_drop": "8mm",
+      "features": [
+        "HOVR cushioning",
+        "Pebax propulsion plate",
+        "Connects to UA MapMyRun"
+      ],
+      "description": "Designed for speed and distance, this shoe offers real-time coaching via UA’s running app.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.7, "total_reviews": 200 }
+    },
+    {
+      "id": "rs013",
+      "brand": "Adidas",
+      "model": "Cloudflow",
+      "category": "Performance",
+      "gender": "Unisex",
+      "sizes": [7.5, 8, 8.5, 9, 9.5],
+      "price": 140.0,
+      "colors": ["White", "Green", "Blue"],
+      "weight": "235g",
+      "heel_drop": "6mm",
+      "features": ["Helion Superfoam", "Speedboard", "CloudTec cushioning"],
+      "description": "Lightweight and responsive, perfect for fast-paced runs and races.",
+      "stock_status": "Limited Stock",
+      "reviews": { "average_rating": 4.6, "total_reviews": 310 }
+    },
+    {
+      "id": "rs014",
+      "brand": "Hoka",
+      "model": "S/Lab Ultra 3",
+      "category": "Trail",
+      "gender": "Men",
+      "sizes": [8, 8.5, 9, 9.5, 10],
+      "price": 180.0,
+      "colors": ["Black", "Red"],
+      "weight": "290g",
+      "heel_drop": "8mm",
+      "features": [
+        "EnergyCell+ midsole",
+        "Contragrip MA outsole",
+        "EndoFit for precision fit"
+      ],
+      "description": "Designed for ultra-distance trail races with maximum grip and comfort.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.8, "total_reviews": 150 }
+    },
+    {
+      "id": "rs015",
+      "brand": "Asics",
+      "model": "Bushido II",
+      "category": "Trail",
+      "gender": "Women",
+      "sizes": [6, 6.5, 7, 7.5, 8],
+      "price": 130.0,
+      "colors": ["Yellow", "Black"],
+      "weight": "305g",
+      "heel_drop": "6mm",
+      "features": [
+        "STB Control System",
+        "FriXion XT V-Groove sole",
+        "Rock Guard outsole"
+      ],
+      "description": "A responsive and lightweight shoe ideal for technical terrain and rugged trails.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.7, "total_reviews": 220 }
+    },
+    {
+      "id": "rs016",
+      "brand": "Nike",
+      "model": "Vaporfly Next% 2",
+      "category": "Racing",
+      "gender": "Unisex",
+      "sizes": [8, 8.5, 9, 9.5, 10],
+      "price": 250.0,
+      "colors": ["Volt", "White", "Pink"],
+      "weight": "210g",
+      "heel_drop": "8mm",
+      "features": [
+        "ZoomX foam",
+        "Carbon-fiber plate",
+        "Lightweight mesh upper"
+      ],
+      "description": "Elite racing shoe built for marathon runners seeking maximum energy return.",
+      "stock_status": "Limited Stock",
+      "reviews": { "average_rating": 4.9, "total_reviews": 450 }
+    },
+    {
+      "id": "rs017",
+      "brand": "Hoka",
+      "model": "Magnifly 4",
+      "category": "Cushioned",
+      "gender": "Men",
+      "sizes": [8, 8.5, 9, 9.5, 10],
+      "price": 120.0,
+      "colors": ["Gray", "Black", "Red"],
+      "weight": "260g",
+      "heel_drop": "0mm",
+      "features": [
+        "Ortholite footbed",
+        "Dual-density midsole",
+        "Roomy toe box"
+      ],
+      "description": "A zero-drop shoe providing natural foot movement and moderate cushioning.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.4, "total_reviews": 140 }
+    },
+    {
+      "id": "rs018",
+      "brand": "Hoka",
+      "model": "Adrenaline GTS 22",
+      "category": "Stability",
+      "gender": "Women",
+      "sizes": [6, 6.5, 7, 7.5, 8],
+      "price": 130.0,
+      "colors": ["Blue", "Black", "Gray"],
+      "weight": "283g",
+      "heel_drop": "12mm",
+      "features": [
+        "GuideRails support system",
+        "DNA Loft cushioning",
+        "3D Fit Print"
+      ],
+      "description": "Offers a stable and supportive ride, ideal for overpronators.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.6, "total_reviews": 365 }
+    },
+    {
+      "id": "rs019",
+      "brand": "Asics",
+      "model": "Novablast 3",
+      "category": "Neutral",
+      "gender": "Men",
+      "sizes": [8, 8.5, 9, 9.5, 10],
+      "price": 140.0,
+      "colors": ["Orange", "White", "Blue"],
+      "weight": "260g",
+      "heel_drop": "10mm",
+      "features": [
+        "FF Blast+ cushioning",
+        "AHAR+ outsole",
+        "Jacquard mesh upper"
+      ],
+      "description": "Bouncy and energetic shoe for runners looking for a responsive ride.",
+      "stock_status": "Limited Stock",
+      "reviews": { "average_rating": 4.5, "total_reviews": 280 }
+    },
+    {
+      "id": "rs020",
+      "brand": "Asics",
+      "model": "FuelCell Rebel v3",
+      "category": "Performance",
+      "gender": "Unisex",
+      "sizes": [8, 8.5, 9, 9.5, 10],
+      "price": 130.0,
+      "colors": ["White", "Black", "Green"],
+      "weight": "212g",
+      "heel_drop": "6mm",
+      "features": [
+        "FuelCell foam",
+        "Lightweight engineered mesh",
+        "Dynamic response"
+      ],
+      "description": "A fast and responsive shoe designed for speed work and races.",
+      "stock_status": "In Stock",
+      "reviews": { "average_rating": 4.8, "total_reviews": 400 }
+    }
+  ]
+}
